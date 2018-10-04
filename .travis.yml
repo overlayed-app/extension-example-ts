@@ -2,7 +2,8 @@ language: node_js
 
 before_script:
   - npm run build
-
+  - ls
+  
 script:
   - npm run test
 
