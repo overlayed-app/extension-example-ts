@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example renders greeting 1`] = `
+<h1>
+  Hello human
+</h1>
+`;
+
+exports[`Example renders greeting 2`] = `
+<h1>
+  Hello test
+</h1>
+`;
