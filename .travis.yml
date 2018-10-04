@@ -2,14 +2,12 @@ language: node_js
 
 before_script:
   - npm run build
-  - ls -R test
-  - cat test/__snapshots__/Example.spec.ts.snap
 
 script:
   - npm test
 
 after_success:
-  - npm run coverage
+  - npm run publish-coverage
 
 node_js:
   - "node"
