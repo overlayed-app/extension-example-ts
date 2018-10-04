@@ -4,10 +4,10 @@ before_script:
   - npm run build
 
 script:
-  - npm run test
+  - npm test
 
-after_script:
-  - npm run coverage
+after_success:
+  - npm run publish-coverage
 
 node_js:
   - "node"
