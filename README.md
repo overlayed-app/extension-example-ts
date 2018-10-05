@@ -34,8 +34,9 @@ For overlayed, `package.json` must contain some critical information so we add t
 + After we get those tools, we'll need some type definitions so typescript can be happy - we get those with `npm i -D @types/jest`
 + We'll also want some standard configurations for tslint - we get those with `npm i -D tslint-react tslint-config-prettier` 
 + We also use `rimraf` to cleanup our build directory when we build, so we get that with `npm i -D rimraf`
-+ Finally, we know our code uses react, so we get it, and the types with `npm i react` and `npm i -D @types/react`
++ We know our code uses react, so we get it, and the types with `npm i react` and `npm i -D @types/react`
 + And to test react quickly, we use `npm i react-test-renderer` and `npm i -D @types/react-test-renderer`
++ We also want to ensure we run our common extension tests, so we install those with `npm i -D @overlayed-app/common-ext-tests`
 
 To add additional dependencies, simply run `npm i <module>` which will add the dependency to the `package.json` file, and will be automatically installed by `overlayed` when the plugin is loaded.
 
