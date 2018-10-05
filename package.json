@@ -1,5 +1,5 @@
 {
-  "name": "overlayed-extension-example",
+  "name": "extension-example-ts",
   "version": "1.0.0",
   "description": "An example extension for overlayed",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bengreenier/overlayed-extension-example.git"
+    "url": "git+https://github.com/overlayed-app/extension-example-ts.git"
   },
   "author": "Ben Greenier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bengreenier/overlayed-extension-example/issues"
+    "url": "https://github.com/overlayed-app/extension-example-ts/issues"
   },
-  "homepage": "https://github.com/bengreenier/overlayed-extension-example#readme",
+  "homepage": "https://github.com/overlayed-app/extension-example-ts#readme",
   "dependencies": {
     "react": "^16.5.2"
   },
