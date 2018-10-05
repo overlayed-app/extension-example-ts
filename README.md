@@ -1,4 +1,4 @@
-# overlayed-extension-example
+# extension-example-ts
 
 [![Build Status](https://travis-ci.org/overlayed-app/extension-example-ts.svg?branch=master)](https://travis-ci.org/overlayed-app/extension-example-ts)
 [![Coverage Status](https://coveralls.io/repos/github/overlayed-app/extension-example-ts/badge.svg?branch=master)](https://coveralls.io/github/overlayed-app/extension-example-ts?branch=master)
