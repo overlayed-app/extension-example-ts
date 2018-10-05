@@ -1,7 +1,7 @@
 # overlayed-extension-example
 
-[![Build Status](https://travis-ci.org/bengreenier/overlayed-extension-example.svg?branch=master)](https://travis-ci.org/bengreenier/overlayed-extension-example)
-[![Coverage Status](https://coveralls.io/repos/github/bengreenier/overlayed-extension-example/badge.svg?branch=master)](https://coveralls.io/github/bengreenier/overlayed-extension-example?branch=master)
+[![Build Status](https://travis-ci.org/overlayed-app/extension-example-ts.svg?branch=master)](https://travis-ci.org/overlayed-app/extension-example-ts)
+[![Coverage Status](https://coveralls.io/repos/github/overlayed-app/extension-example-ts/badge.svg?branch=master)](https://coveralls.io/github/overlayed-app/extension-example-ts?branch=master)
 
 An example [overlayed](https://github.com/bengreenier/overlayed) extension
 
