@@ -1,6 +1,6 @@
 {
   "name": "extension-example-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An example extension for overlayed",
   "main": "dist/index.js",
   "scripts": {
@@ -20,24 +20,24 @@
   },
   "homepage": "https://github.com/overlayed-app/extension-example-ts#readme",
   "dependencies": {
-    "react": "^16.5.2"
+    "react": "^16.6.1"
   },
   "devDependencies": {
     "@overlayed-app/common-ext-tests": "^1.0.1",
-    "@types/jest": "^23.3.3",
-    "@types/node": "^10.11.4",
-    "@types/react": "^16.4.14",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.6",
+    "@types/react": "^16.7.3",
     "@types/react-test-renderer": "^16.0.3",
     "coveralls": "^3.0.2",
     "jest": "^23.6.0",
     "prettier": "1.14.0",
-    "react-test-renderer": "^16.5.2",
+    "react-test-renderer": "^16.6.1",
     "rimraf": "^2.6.2",
-    "ts-jest": "^23.10.3",
+    "ts-jest": "^23.10.4",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.14.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.0.1"
+    "typescript": "^3.1.6"
   },
   "contributes": {
     "configuration": {
@@ -45,7 +45,8 @@
       "properties": {
         "username": {
           "description": "The username to show",
-          "type": "string"
+          "type": "string",
+          "default": "human"
         }
       }
     }

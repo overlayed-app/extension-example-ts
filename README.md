@@ -56,7 +56,8 @@ In our example, we define some configuration containing a `string` property, `us
       "properties": {
         "username": {
           "description": "The username to show",
-          "type": "string"
+          "type": "string",
+          "default": "human"
         }
       }
     }
